@@ -7,6 +7,13 @@ body{
     font-family: "Montserrat", sans-serif;
     flex-direction: column;
     padding-top: 4rem;
+
+     
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 40%),
+    url("Designs/pexels-pixabay-159045.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
    
 }
 .container{
@@ -15,8 +22,7 @@ body{
     align-items: center;
     text-align: center;
     padding-top: 4rem;
-   
-    flex-direction: column;   
+    flex-direction: column;
 }
 .navbar{
   
@@ -28,15 +34,14 @@ body{
     display: flex;
     align-items: center;
     color: aliceblue;
-    background-color: #6E6E6E; 
+    background-color:#729236; 
     z-index: 50;
     border-radius: 0 0 0 4rem;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.445);
     
 }
 .navbar:hover{
     transition: 0.3s;
-    color: #729236;
     cursor: pointer;
 }
 .nav-content{
@@ -65,29 +70,22 @@ body{
     display: flex;
     padding: 5rem 13rem;  
     border-radius: 10px;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     color: white;
     flex-wrap: wrap;
-    width: 100%;
+    width: 80%;
     justify-content: center;
     align-items: center;
 
-    
-    background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 40%),
-                url("Designs/pexels-pixabay-159045.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+   
 }
 form{
     display: flex;
     gap: 1.5rem;
 }
 select{
-    padding: 2rem;
-    text-align: center;
+    padding: 1rem;
     width: 20rem;
-    height:5rem;
+    height:3.5rem;
     border: none;
     background-color: #729236;
     border-radius: 10px;
@@ -96,6 +94,10 @@ select{
     font-size: 20px;
     font-weight: bold;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 option{
     cursor: pointer;
@@ -107,31 +109,38 @@ form button{
    background-color:#bfc0c0;
    border-radius: 10px;
    cursor: pointer;
-   padding: 2rem ;
+   padding: 1rem ;
    color:white;
-   height: 5rem;
+   height: 3.5rem;
    font-size: 20px;
    font-weight: bold;
    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
 }
 button:hover{
     background-color:#729236;
     color: white;
     transition: 0.3s;
 }
-input{
-    padding: 2rem;
-    text-align: center;
+form input{
+    padding: 1rem;
+    width: 20rem;
+    height:1.5rem;
     border: none;
     background-color: #729236;
     border-radius: 10px;
     cursor: pointer;
     color: white;
-    height: 20px;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
     font-size: 20px;
     font-weight: bold;
-    outline: none;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 .Result{
     flex-basis: 100%; 
@@ -243,3 +252,33 @@ input{
     box-shadow:  4px 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 4rem;
 }
+
+/* Media query para telas até 1366px de largura (ex: 1336x768) */
+@media (max-width: 1366px) {
+    body {
+      padding-top: 3rem; /* exemplo: menos espaço no topo */
+    }
+  
+    .box {
+      padding: 2rem 4rem; /* reduz a caixa */
+      width: 95%;
+    }
+  
+    select, 
+    form input, 
+    form button {
+      width: 18rem; /* ajusta tamanho dos inputs */
+      font-size: 18px;
+    }
+  
+    .extrainfo {
+      font-size: 1rem;
+    }
+  
+    .color1, .color2, .color3, .color4, .color5,
+    .colorRal1, .colorRal2, .colorRal3, .colorRal4, .colorRal5 {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  
