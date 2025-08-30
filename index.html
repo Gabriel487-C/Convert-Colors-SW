@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Conversor de Cores SW</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="icon" href="Designs/Icon2.png" type="image/png">
+    </head>
+
+    <body>
+        <div class="navbar">
+            <h1>FIND YOUR COLOR</h1>
+        </div> 
+        <div class="container">
+            <div class="box">
+               <div class="extrainfo" id="extrainfo">Digite o RGB sem virgulas e com os espaços adequados, EX: 255 0 0</div> 
+                <form id="formulario">
+                   <select name="type" id="type">
+                      <option value="rgb">RGB</option>
+                      <option value="pantone">PANTONE</option> 
+                      <option value="cmyk">CMYK</option>
+                      <option value="hex">HEX</option>
+                      <option value="ral">RAL</option>
+                   </select>
+                   <input type="text" id="CodigoCor" placeholder="Digite A Cor">
+                <h2 class="convertTo">Convert To</h2>   
+                    <select name="type2" id="typer2">
+                        <option value="ral">RAL</option>
+                        <option value="pantone">PANTONE</option>
+                        <option value="sw">SHERWIN WILLIAMS</option>
+                    </select>
+                    <button type="submit" id="submit">CONVERTER</button>
+                </form>
+                <div class="Result" id="Result"></div>
+                <div class="Sumary" id="Sumary">
+                   <div class="cont1">
+                    <div class="colors">
+                       <h3>RGB 223 211 191</h3>
+                       <div class="color1"></div> 
+                       <h3>SHERWIN WILLIAMS<br>SW 7526</h3>
+                    </div>
+
+                    <div class="colors">
+                        <h3>RGB 127 129 126</h3>
+                        <div class="color2"></div> 
+                        <h3>SHERWIN WILLIAMS<br>SW 7067</h3>
+                     </div>
+
+                     <div class="colors">
+                        <h3>RGB 209 203 193</h3>
+                        <div class="color3"></div> 
+                        <h3>SHERWIN WILLIAMS<br>SW 7029</h3>
+                     </div>
+
+                     <div class="colors">
+                        <h3>RGB 124 50 57</h3>
+                        <div class="color4"></div> 
+                        <h3>SHERWIN WILLIAMS<br>SW 7583</h3>
+                     </div>
+                    
+                     <div class="colors">
+                        <h3>RGB 124 50 57</h3>
+                        <div class="color5"></div> 
+                        <h3>SHERWIN WILLIAMS<br>SW 6244</h3>
+                     </div>
+                   </div> 
+                   <div class="cont2">
+                    
+                    <div class="colors">
+                        <h3>RAL 7024</h3>
+                        <div class="colorRal1"></div> 
+                        <h3>SHERWIN WILLIAMS<br>SW 7076</h3>
+                     </div>
+
+                     <div class="colors">
+                        <h3>RAL 7035</h3>
+                        <div class="colorRal2"></div> 
+                        <h3>SHERWIN WILLIAMS<br>SW 7657</h3>
+                     </div>
+
+                     <div class="colors">
+                        <h3>RAL 1003</h3>
+                        <div class="colorRal3"></div> 
+                        <h3>SHERWIN WILLIAMS<br>SW 6905</h3>
+                     </div>
+
+                     <div class="colors">
+                        <h3>RAL 9007</h3>
+                        <div class="colorRal4"></div> 
+                        <h3>SHERWIN WILLIAMS<br>SW 0077</h3>
+                     </div>
+                     
+                     <div class="colors">
+                        <h3>RAL 9010</h3>
+                        <div class="colorRal5"></div> 
+                        <h3>SHERWIN WILLIAMS<br>SW 7551</h3>
+                     </div>
+
+                   </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
