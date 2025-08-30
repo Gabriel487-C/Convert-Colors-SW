@@ -34,7 +34,7 @@ body{
     display: flex;
     align-items: center;
     color: aliceblue;
-    background-color:#729236; 
+    background:linear-gradient(60deg, #09203F , #537895); 
     z-index: 50;
     border-radius: 0 0 0 4rem;
     box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.445);
@@ -49,22 +49,7 @@ body{
     display: flex;
     align-items: center;
 }
-.nav-content button{
-    text-align: center;
-    display: flex;
-    align-items: center;
-    border: none;
-    background-color:#bfc0c0;
-    border-radius: 10px;
-    cursor: pointer;
-    padding: 1rem ;
-    color:white;
-    height: 3rem;
-    font-size: 15px;
-    font-weight: bold;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
-    gap: 2px;
-}
+
 .box{
     text-align: center;
     display: flex;
@@ -87,7 +72,7 @@ select{
     width: 20rem;
     height:3.5rem;
     border: none;
-    background-color: #729236;
+    background:linear-gradient(60deg, #09203F , #537895);
     border-radius: 10px;
     cursor: pointer;
     color: white;
@@ -119,18 +104,19 @@ form button{
    justify-content: center;
    text-align: center;
    align-items: center;
+   transition: 0.4s;
 }
-button:hover{
-    background-color:#729236;
+form button:hover{
+    background:linear-gradient(60deg, #09203F , #537895);
     color: white;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 form input{
     padding: 1rem;
     width: 20rem;
     height:1.5rem;
     border: none;
-    background-color: #729236;
+    background:linear-gradient(60deg, #09203F , #537895);
     border-radius: 10px;
     cursor: pointer;
     color: white;
@@ -141,6 +127,7 @@ form input{
     justify-content: center;
     text-align: center;
     align-items: center;
+    outline: none;
 }
 .Result{
     flex-basis: 100%; 
@@ -157,11 +144,8 @@ form input{
     font-weight: bold;
     font-size: 25px;
 }
-.extrainfo:hover{
-    color: #729236;
-    transition: 0.3s;
-    cursor: pointer;
-}
+
+
 .Sumary{
     display: flex;
     flex-direction: column;
@@ -197,7 +181,7 @@ form input{
     background-color: rgb( 47 61 76);
 }
 .cont1{
-    background-color:#6E6E6E;  
+   background-color: #636a70;  
     border-radius: 15px;
     display: flex;
     gap: 2rem;
@@ -207,7 +191,7 @@ form input{
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
 .cont2{
-    background-color: #6E6E6E;
+    background-color:  #636a70;
     display: flex;
     gap: 2rem;
     padding: 2rem 2rem;
@@ -253,21 +237,21 @@ form input{
     border-radius: 4rem;
 }
 
-/* Media query para telas até 1366px de largura (ex: 1336x768) */
+
 @media (max-width: 1366px) {
     body {
-      padding-top: 3rem; /* exemplo: menos espaço no topo */
+      padding-top: 3rem; 
     }
   
     .box {
-      padding: 2rem 4rem; /* reduz a caixa */
+      padding: 2rem 4rem; 
       width: 95%;
     }
   
     select, 
     form input, 
     form button {
-      width: 18rem; /* ajusta tamanho dos inputs */
+      width: 18rem; 
       font-size: 18px;
     }
   
@@ -281,4 +265,9 @@ form input{
       height: 120px;
     }
   }
-  
+  .colors{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+  }
