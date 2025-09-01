@@ -29,15 +29,15 @@ Este projeto é um **conversor de cores** desenvolvido em **Node.js** que permit
 git clone https://github.com/seu-usuario/nome-do-repo.git
 cd nome-do-repo
 
-2️⃣ Instalar as dependências
+### 2️⃣ Instalar as dependências
 
 npm install
 
-3️⃣ Iniciar o servidor
+### 3️⃣ Iniciar o servidor
 
 node server.js
 
-4️⃣ Verificar se está funcionando
+### 4️⃣ Verificar se está funcionando
 
 Abra o navegador ou use curl para acessar:
 
