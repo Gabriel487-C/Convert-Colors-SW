@@ -28,4 +28,17 @@ Clone este repositório em sua máquina:
 git clone https://github.com/seu-usuario/nome-do-repo.git
 cd nome-do-repo
 
+Instale as Dependencias:
 
+```bash
+npm install
+
+Inicie o servidor no terminal:
+
+```bash
+node server.js
+
+Se você receber a seguinte mensagem está funcionando de acordo:
+
+```bash
+http://localhost:3000
