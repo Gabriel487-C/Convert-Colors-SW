@@ -22,23 +22,23 @@ Este projeto é um **conversor de cores** desenvolvido em **Node.js** que permit
 
 ## 📦 Instalação
 
-Clone este repositório em sua máquina:
+## 💻 Comandos Bash
 
+### 1️⃣ Clonar o repositório
 ```bash
 git clone https://github.com/seu-usuario/nome-do-repo.git
 cd nome-do-repo
 
-Instale as Dependencias:
+2️⃣ Instalar as dependências
 
-```bash
 npm install
 
-Inicie o servidor no terminal:
+3️⃣ Iniciar o servidor
 
-```bash
 node server.js
 
-Se você receber a seguinte mensagem está funcionando de acordo:
+4️⃣ Verificar se está funcionando
 
-```bash
+Abra o navegador ou use curl para acessar:
+
 http://localhost:3000
