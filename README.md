@@ -1,12 +1,12 @@
-# 🎨 Conversor de Cores (RGBA, HEX e Sherwin-Williams)
+# 🎨 Conversor de Cores (RGB, HEX e Sherwin-Williams)
 
-Este projeto é um **conversor de cores** desenvolvido em **Node.js** que permite transformar valores de cor entre os formatos **RGBA**, **HEX** e encontrar a cor mais próxima da paleta **Sherwin-Williams**.
+Este projeto é um **conversor de cores** desenvolvido em **Node.js** que permite transformar valores de cor entre os formatos **RGB**, **HEX** e encontrar a cor mais próxima da paleta **Sherwin-Williams**.
 
 ---
 
 ## 🚀 Funcionalidades
-- Conversão de **RGBA → HEX**
-- Conversão de **HEX → RGBA**
+- Conversão de **RGB → HEX**
+- Conversão de **HEX → RGB**
 - Busca da **cor mais próxima no catálogo Sherwin-Williams**
 - Servidor simples em **Node.js** para processar as conversões
 
